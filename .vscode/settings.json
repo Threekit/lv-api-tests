@@ -1,0 +1,21 @@
+{
+  "eslint.probe": ["javascript", "javascriptreact", "typescript", "json"],
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "cSpell.words": [
+    "esbuild",
+    "fortawesome",
+    "GLTF",
+    "interruptible",
+    "lerp",
+    "microbundle",
+    "Nullary",
+    "reactflow",
+    "reserialization",
+    "reserialized",
+    "Slerp",
+    "threeify"
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": ["source.formatDocument", "source.fixAll.eslint"]
+}

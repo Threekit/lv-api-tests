@@ -1,0 +1,19 @@
+{
+  "name": "html-pdf-test",
+  "version": "1.2.3",
+  "type": "module",
+  "source": "./src/index.ts",
+  "main": "./dist/index.js",
+  "bin": "./bin/cli.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "node ./dist/index.js"
+  },
+  "dependencies": {
+    "@bhouston/common-lib": "*",
+    "yargs": "^17.7.2",
+    "html-pdf": "^3.0.1",
+    "@types/html-pdf": "^3.0.3"
+  }
+}
